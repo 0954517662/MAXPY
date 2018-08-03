@@ -11,7 +11,7 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-arif = LINE()
+arif = LINE("EvV8BZ80WYAP76ySqWH6.HQh4RpqRYzqfruxsRHZtfG.0LBEbS7xKFZiGCFTmhI7y7EpvFa0SaA6Kc7Y8FsotMk=")
 #arif = LINE("TOKEN KAMU")
 #arif = LINE("Email","Password")
 arif.log("Auth Token : " + str(arif.authToken))
@@ -390,7 +390,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u65224f4e8812136f01b25275a54b5aef"
+                        owner = "u86a1f8acf42bc994054545d2ae1cd316"
                         creator = arif.getContact(owner)
                         contact = arif.getContact(arifMID)
                         grouplist = arif.getGroupIdsJoined()
@@ -740,15 +740,15 @@ def lineBot(op):
                         ret_ += "\n╰━━[ Total {} Groups ]".format(str(len(groups)))
                         arif.sendMessage(to, str(ret_))
 #==============================================================================#          
-                elif text.lower() == 'mention':
+                elif text.lower() == 'tagall':
                     group = arif.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//19
                     for a in range(k+1):
                         txt = u''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*19 : (a+1)*19]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += u'@Alin \n'
