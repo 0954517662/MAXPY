@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [arifMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u65224f4e8812136f01b25275a54b5aef","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u65224f4e8812136f01b25275a54b5aef"]
-admin = ["u65224f4e8812136f01b25275a54b5aef"]
+creator = ["ue1d6a794435130d139f9c5dde19aa9e5","u4862fe4b182b2fd194a3108e2f3662e8"]
+Owner = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+admin = ["ue1d6a794435130d139f9c5dde19aa9e5"]
 
 arifProfile = arif.getProfile()
 kiProfile = ki.getProfile()
@@ -138,31 +138,31 @@ def sendMessageWithMention(to, mid):
         logError(error)
         
 def helpmessage():
-    helpMessage = "╭───────────────────" + "\n" + \
-                  "│✒♠✳▪ ARIF_MH▪✳♠" + "\n" + \
+    helpMessage = "╭────────────" + "\n" + \
+                  "│✒【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
                   "│" + "\n" + \
-                  "│✒──✪〔 Help Message 〕✪──" + "\n" + \
+                  "│✒─✪〔 คำสั่ง 〕✪───" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Help 〕✪────────" + "\n" + \
+                  "│✒─✪〔 Help 〕✪───" + "\n" + \
                   "│▪➤Help" + "\n" + \
                   "│▪➤Translate" + "\n" + \
                   "│▪➤Texttospeech" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Protect 〕✪───────" + "\n" + \
+                  "│✒─✪〔 ป้องกัน 〕✪──" + "\n" + \
                   "│▪➤Protect 「On/Off」" + "\n" + \
                   "│▪➤QrProtect 「On/Off」" + "\n" + \
                   "│▪➤InviteProtect 「On/Off」" + "\n" + \
                   "│▪➤CancelProtect 「On/Off」" + "\n" + \
                   "│▪➤SetPro 「On/Off」" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Status 〕✪────────" + "\n" + \
+                  "│✒✪〔 Status 〕✪───" + "\n" + \
                   "│▪➤Restart" + "\n" + \
                   "│▪➤Runtime" + "\n" + \
                   "│▪➤Speed" + "\n" + \
                   "│▪➤Status" + "\n" + \
                   "│▪➤About" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Settings 〕✪───────" + "\n" + \
+                  "│✒✪〔 Settings 〕✪──" + "\n" + \
                   "│▪➤AutoAdd「On/Off」" + "\n" + \
                   "│▪➤AutoJoin「On/Off」" + "\n" + \
                   "│▪➤AutoLeave「On/Off」" + "\n" + \
@@ -170,7 +170,7 @@ def helpmessage():
                   "│▪➤CheckSticker「On/Off」" + "\n" + \
                   "│▪➤DetectMention「On/Off」" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Self 〕✪─────────" + "\n" + \
+                  "│✒✪〔 Self 〕✪────" + "\n" + \
                   "│▪➤Me" + "\n" + \
                   "│▪➤MyMid" + "\n" + \
                   "│▪➤MyName" + "\n" + \
@@ -188,7 +188,7 @@ def helpmessage():
                   "│▪➤CloneProfile「Mention」" + "\n" + \
                   "│▪➤RestoreProfile" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Group 〕✪────────" + "\n" + \
+                  "│✒✪〔 Group 〕✪───" + "\n" + \
                   "│▪➤GroupCreator" + "\n" + \
                   "│▪➤GroupId" + "\n" + \
                   "│▪➤GroupName" + "\n" + \
@@ -201,7 +201,7 @@ def helpmessage():
                   "│▪➤Kill「Mention」" + "\n" + \
                   "│▪➤KickAllMember"+ "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Special 〕✪───────" + "\n" + \
+                  "│✒✪〔 Special 〕✪──" + "\n" + \
                   "│▪➤Mimic「On/Off」" + "\n" + \
                   "│▪➤MimicList" + "\n" + \
                   "│▪➤MimicAdd「Mention」" + "\n" + \
@@ -210,7 +210,7 @@ def helpmessage():
                   "│▪➤Lurking「Oɴ/Off/Reset」" + "\n" + \
                   "│▪➤Lurking" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Media 〕✪────────" + "\n" + \
+                  "│✒✪〔 Media 〕✪───" + "\n" + \
                   "│▪➤Kalender" + "\n" + \
                   "│▪➤CheckDate「Date」" + "\n" + \
                   "│▪➤InstagramInfo「UserName」" + "\n" + \
@@ -221,7 +221,7 @@ def helpmessage():
                   "│▪➤SearchImage「Search」" + "\n" + \
                   "│▪➤ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "│" + "\n" + \
-                  "│✒✪〔 Bot 〕✪─────────" + "\n" + \
+                  "│✒✪〔 Bot 〕✪────" + "\n" + \
                   "│▪➤AdminAdd" + "\n" + \
                   "│▪➤AdminDel" + "\n" + \
                   "│▪➤AdminList" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "│▪➤JoinAll" + "\n" + \
                   "│▪➤ByeAll" + "\n" + \
                   "│" + "\n" + \
-                  "╰─〔 Credits By: ©arifistifik™  〕"
+                  "╰─〔 Credits By:MAX 〕"
     return helpMessage
     
 def helptexttospeech():
@@ -296,7 +296,7 @@ def helptexttospeech():
                          "│✒ vi : Vietnamese" + "\n" + \
                          "│✒ cy : Welsh" + "\n" + \
                          "╰──〔 Jangan Typo 〕" + "\n" + "\n\n" + \
-                          "Contoh : say-en Aku cinta kamu"
+                          "Contoh : say-en MAXSY"
     return helpTextToSpeech
     
 def helptranslate():
@@ -408,7 +408,7 @@ def helptranslate():
                        "│✒ fil : Filipino" + "\n" + \
                        "│✒ he : Hebrew" + "\n" + \
                        "╰──〔 Jangan Typo 〕" + "\n" + "\n\n" + \
-                         "Contoh : tr-en Aku cinta kamu"
+                         "Contoh : tr-en MAXSY"
     return helpTranslate
 #==============================================================================#
 def backupData():
@@ -441,7 +441,8 @@ def lineBot(op):
         if op.type == 5:
             print ("[ 5 ] NOTIFIED ADD CONTACT")
             if settings["autoAdd"] == True:
-                arif.sendMessage(op.param1, "Halo {} terimakasih telah menambahkan saya sebagai teman :D".format(str(arif.getContact(op.param1).displayName)))
+                arif.sendMessage(op.param1, "สวัสดีครับ {} สนใจเชลบอท\nอินโดนีเซีย\nทักมาไลน์นี้\nราคากันเอง ^_^".format(str(arif.getContact(op.param1).displayName)))
+                arif.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
         if op.type == 13:
             print ("[ 13 ] NOTIFIED INVITE INTO GROUP")
             group = arif.getGroup(op.param1)
@@ -573,7 +574,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     arif.sendMessage(to, str(helpMessage))
-                    arif.sendContact(to, "u65224f4e8812136f01b25275a54b5aef")
+                    arif.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     arif.sendMessage(to, str(helpTextToSpeech))
@@ -581,6 +582,17 @@ def lineBot(op):
                     helpTranslate = helptranslate()
                     arif.sendMessage(to, str(helpTranslate))
 #==============================================================================#
+                elif text.lower() == 'spb':
+                    start = time.time()
+                    ki.sendMessage(to, "Wait...")
+                    elapsed_time = time.time() - start
+                    ki.sendMessage(to,format(str(elapsed_time)))
+                    elapsed_time = time.time() - start
+                    ki2.sendMessage(to,format(str(elapsed_time)))
+                    elapsed_time = time.time() - start
+                    ki3.sendMessage(to,format(str(elapsed_time)))
+                    elapsed_time = time.time() - start
+                    ki4.sendMessage(to,format(str(elapsed_time)))
                 elif text.lower() == 'speed':
                     start = time.time()
                     arif.sendMessage(to, "Wait...")
@@ -600,7 +612,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u65224f4e8812136f01b25275a54b5aef"
+                        owner = "ue1d6a794435130d139f9c5dde19aa9e5"
                         creator = arif.getContact(owner)
                         contact = arif.getContact(arifMID)
                         grouplist = arif.getGroupIdsJoined()
@@ -612,7 +624,7 @@ def lineBot(op):
                         ret_ += "\n│✒ Friend : {}".format(str(len(contactlist)))
                         ret_ += "\n│✒ Blocked : {}".format(str(len(blockedlist)))
                         ret_ += "\n│✒──[ About Selfbot ]"
-                        ret_ += "\n│✒ Version : Premium"
+                        ret_ += "\n│✒ Version : MAX_Premium"
                         ret_ += "\n│✒ Creator : {}".format(creator.displayName)
                         ret_ += "\n╰──[ Dilarang Remake Tanpa Ijin :P ]"
                         arif.sendMessage(to, str(ret_))
@@ -689,10 +701,10 @@ def lineBot(op):
                             arif.sendMessage(msg.to,"The Ownerlist is empty")
                         else:
                             arif.sendMessage(msg.to,"Tunggu...")
-                            mc = "╭───────────────\n│✒♠✳▪ ARIF_MH▪✳♠\n│✒──✪〔 Owner List 〕✪───\n"
+                            mc = "╭────────────\n│✒♠✳▪ MAXSY▪✳♠\n│✒──✪〔 Owner List 〕✪───\n"
                             for mi_d in admin:
                                 mc += "│✒✪ " +arif.getContact(mi_d).displayName + "\n"
-                            arif.sendMessage(msg.to,mc + "│✒───────────────\n│✒✪〔 line.me/ti/p/~arifistifik 〕\n╰───────────────")
+                            arif.sendMessage(msg.to,mc + "│✒────────────\n│✒✪〔 line.me/ti/p/~self_js 〕\n╰────────────")
 #-------------------------------------------------------------------------------
                 elif msg.text.lower().startswith("adminadd "):
                     if msg._from in Owner:
@@ -740,10 +752,10 @@ def lineBot(op):
                             arif.sendMessage(msg.to,"The Adminlist is empty")
                         else:
                             arif.sendMessage(msg.to,"Tunggu...")
-                            mc = "╭───────────────\n│✒♠✳▪ ARIF_MH▪✳♠\n│✒──✪〔 Admin List 〕✪───\n"
+                            mc = "╭────────────\n│✒♠✳▪ MAXSY ▪✳♠\n│✒──✪〔 Admin List 〕✪───\n"
                             for mi_d in admin:
                                 mc += "│✒✪ " +arif.getContact(mi_d).displayName + "\n"
-                            arif.sendMessage(msg.to,mc + "│✒───────────────\n│✒✪〔 line.me/ti/p/~arifistifik 〕\n╰───────────────")
+                            arif.sendMessage(msg.to,mc + "│✒────────────\n│✒✪〔 line.me/ti/p/~self_js 〕\n╰────────────")
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'protect on':
                     if msg._from in Owner:
@@ -1278,7 +1290,7 @@ def lineBot(op):
                            except:
                                random.choice(KAC).sendText(msg.to,"Error")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'kickallmember':
+                elif text.lower() == 'kick all member':
                     if msg._from in Owner:
                         if msg.toType == 2:
                             print ("[ 19 ] KICK ALL MEMBER")
@@ -1288,8 +1300,8 @@ def lineBot(op):
                             gs = ki2.getGroup(msg.to)
                             gs = ki3.getGroup(msg.to)
                             gs = ki4.getGroup(msg.to)
-    #                       arif.sendMessage(msg.to,"「 Bye All 」")
-    #                       arif.sendMessage(msg.to,"「 Sory guys 」")
+                            arif.sendMessage(msg.to,"「 Bye All 」")
+                            arif.sendMessage(msg.to,"「 Sory guys 」")
                             targets = []
                             for g in gs.members:
                                 if _name in g.displayName:
@@ -1302,7 +1314,7 @@ def lineBot(op):
                                         if not target in Owner:
                                             if not target in admin:
                                                 try:
-                                                    klist=[line,ki,ki2,ki3,ki4]
+                                                    klist=[arif,ki,ki2,ki3,ki4]
                                                     kicker=random.choice(klist)
                                                     kicker.kickoutFromGroup(msg.to,[target])
                                                     print (msg.to,[g.mid])
@@ -1312,12 +1324,12 @@ def lineBot(op):
                 elif text.lower() == 'mention':
                     group = arif.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = u''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += u'@Alin \n'
@@ -3768,6 +3780,14 @@ def lineBot(op):
                         group = arif.findGroupByTicket(ticket_id)
                         arif.acceptGroupInvitationByTicket(group.id,ticket_id)
                         arif.sendMessage(to, "Berhasil masuk ke group %s" % str(group.name)) 
+                        ki.acceptGroupInvitationByTicket(group.id,ticket_id)
+                        ki.sendMessage(to, "Berhasil masuk ke group %s" % str(group.name)) 
+                        ki2.acceptGroupInvitationByTicket(group.id,ticket_id)
+                        ki2.sendMessage(to, "Berhasil masuk ke group %s" % str(group.name)) 
+                        ki3.acceptGroupInvitationByTicket(group.id,ticket_id)
+                        ki3.sendMessage(to, "Berhasil masuk ke group %s" % str(group.name)) 
+                        ki4.acceptGroupInvitationByTicket(group.id,ticket_id)
+                        ki4.sendMessage(to, "Berhasil masuk ke group %s" % str(group.name)) 
                         
         if op.type == 26:
             print ("[ 26 ] RECEIVE MESSAGE")
@@ -3784,7 +3804,10 @@ def lineBot(op):
             else:
                 to = receiver
                 if settings["autoRead"] == True:
-                    arif.sendChatChecked(to, msg_id)
+                    ki.sendChatChecked(to, msg_id)
+                    ki2.sendChatChecked(to, msg_id)
+                    ki3.sendChatChecked(to, msg_id)
+                    ki4.sendChatChecked(to, msg_id)
                 if to in read["readPoint"]:
                     if sender not in read["ROM"][to]:
                         read["ROM"][to][sender] = True
